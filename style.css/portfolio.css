@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    font-family: 'open Sans', sans-serif;
+}
+
+/* Mehedy */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
