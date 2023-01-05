@@ -3,8 +3,48 @@
     font-family: 'open Sans', sans-serif;
 }
 
+.text-primary {
+    color: #FD6E0A
+}
+
+.btn-primary {
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    border: 0;
+    padding: 18px 35px;
+}
+
+/* header and navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 228px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
 /* Mehedy */
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+}
+
+/* header banner */
+.banner {
+    margin: 50px 228px;
+    display: flex;
 }
