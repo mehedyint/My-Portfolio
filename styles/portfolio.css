@@ -77,3 +77,50 @@ nav li {
     color: #757575;
     margin-bottom: 30px;
 }
+
+/* about section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 156px;
+}
+
+.section-title {
+
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-title {
+    font-size: 20px;
+    color: #757575;
+
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
