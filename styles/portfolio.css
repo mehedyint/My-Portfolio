@@ -20,6 +20,13 @@
 
 }
 
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 /* header and navigation style */
 nav {
     display: flex;
@@ -42,4 +49,31 @@ nav li {
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 241px;
+}
+
+.author-sub-name {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-top: 20px;
+}
+
+.author-name {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+
+.author-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
 }
